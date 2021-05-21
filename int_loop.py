@@ -13,9 +13,6 @@ def main():
     print("This program shows every integer from "
           "1000 to 2000.")
 
-    # variable declarations
-    loop_counter = 0
-
     # process
     for counter in range(1000, 2000 + 1):
         if counter % 5 != 4:
